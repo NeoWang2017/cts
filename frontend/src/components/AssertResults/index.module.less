@@ -1,0 +1,38 @@
+.result-title {
+  margin: (10 / @base-font-size) * 1rem auto 4px;
+  font-size: (14 / @base-font-size) * 1rem;
+  color: @dark-font-color;
+}
+
+.container {
+  margin: 0 auto (10 / @base-font-size) * 1rem auto;
+  padding: (10 / @base-font-size) * 1rem;
+  border-radius: 8px;
+  background-color: @dark-card-background-color;
+}
+
+.section {
+  margin-bottom: (15 / @base-font-size) * 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section-title {
+  font-size: (14 / @base-font-size) * 1rem;
+  margin-bottom: 10px;
+  color: @dark-sub-font-color;
+}
+
+.error-item {
+  padding: (6 / @base-font-size) * 1rem;
+  border-left: 4px solid red;
+  background-color: #ffe6e6;
+  color: #d9534f;
+  white-space: pre-wrap;
+}
+
+.pass-result {
+  color: green;
+}

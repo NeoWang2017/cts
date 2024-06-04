@@ -1,0 +1,43 @@
+.home-container {
+  padding: 80px (16 / @base-font-size) * 1rem (16 / @base-font-size) * 1rem;
+
+  .logo-box {
+    width: (80 / @base-font-size) * 1rem;
+    height: (80 / @base-font-size) * 1rem;
+    margin: 0 auto (20 / @base-font-size) * 1rem;
+
+    .logo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .title {
+    color: @dark-font-color;
+    font-size: (20 / @base-font-size) * 1rem;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0 0 (40 / @base-font-size) * 1rem;
+  }
+
+  .group-title {
+    color: @dark-sub-font-color;
+    font-size: (18 / @base-font-size) * 1rem;
+    font-weight: 600;
+    padding: (16 / @base-font-size) * 1rem;
+  }
+
+  .case-group {
+    background-color: @dark-card-background-color;
+    border-radius: 8px;
+    overflow: hidden;
+
+    :global {
+      .arco-cell-group {
+        border-radius: 0 0 8px 8px;
+      }
+    }
+  }
+}
