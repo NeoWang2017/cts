@@ -12,7 +12,7 @@ const FloatSetting: React.FC = () => {
 
   return (
     <FloatButton>
-      <IconSetting style={{fontSize: 20}} onClick={handleToSetting}/>
+      <IconSetting style={{fontSize: 20, color: '#FFFFFF'}} onClick={handleToSetting}/>
     </FloatButton>
   );
 };
